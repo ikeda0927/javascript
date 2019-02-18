@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "ad blocker",
+  "version": "0.0.0.1",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "*://abema.tv/*",
+    "*://trk.ad.abema.io/*",
+    "*://lk.ameba.jp/*",
+    "webRequest",
+    "tabs",
+    "alarms"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  }
+}
